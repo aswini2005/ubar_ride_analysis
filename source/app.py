@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("cleaned_uber_data.csv")
+df = pd.read_csv( r"C:\Users\Aswini0905\Desktop\ubar_ride_analysis\source\cleaned_uber_data.csv")
 
 st.title("Ride Sharing Analytics Dashboard")
 
@@ -151,4 +151,4 @@ fig = px.bar(
     y='Count',
     title='Driver Cancellation Reasons'
 )
-
+st.plotly_chart(fig, use_container_width=True)
