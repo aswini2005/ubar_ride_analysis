@@ -138,7 +138,7 @@ with c1:
 
     fig1.update_layout(
     height=400,      
-    width=2500,     
+    width=1000,     
     title={'text':'<b>📊 Peak Booking Hours</b>', 'x':0.5},
     xaxis_title='<b>Time Slot</b>',
     yaxis_title='<b>Number of Bookings</b>',
