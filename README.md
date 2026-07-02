@@ -83,3 +83,32 @@ This project analyzes ride-sharing data to support better business decisions.
 
 ```bash
 pip install streamlit pandas plotly
+
+Run the Dashboard
+python -m streamlit run app.py
+Open in Browser
+http://localhost:8501
+📁 Project Structure
+uber_ride_analysis/
+│
+├── app.py
+├── cleaned_uber_data.csv
+├── uber_analysis.ipynb
+├── README.md
+├── requirements.txt
+│
+├── images/
+│   └── dashboard.png
+│
+├── datasets/
+│
+├── output/
+│
+└── source/
+👩‍💻 Author
+
+Aswini B
+
+Data Analytics Project
+
+Uber Ride Analytics Dashboard
